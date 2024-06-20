@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+h1 {
+    background-color:transparent;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.toptitle {
+    background: linear-gradient(to right, #ffffff, #0a0163)  ;
+    font-family: 'Lilita One', sans-serif;
+    font-weight: 300;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    border: 1px, solid, white;
+    padding: 2px;
+
+}
+.test {
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 15px;
+}
+.test a:hover {
+    background-color:cornflowerblue;
+    color: black;
+}

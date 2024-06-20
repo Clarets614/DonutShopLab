@@ -1,0 +1,16 @@
+<div class="donutcontainer">
+    <div class="donutbox">
+<h1>{{displayDonut.name}}</h1>
+<p>{{displayDonut.calories}} Calories</p>
+<img width="200px" [src]="displayDonut.photo">
+<p>Extras: 
+@for (e of displayDonut.extras; track $index) {
+    <li>{{e}}</li>
+}</p>
+    <p>Photo Attribution
+    <a class="Link" href="{{displayDonut.photo_attribution}}">Link</a>
+    </p>
+    <button (click)="addToCart()">Buy Donut</button>
+</div>
+</div>
+

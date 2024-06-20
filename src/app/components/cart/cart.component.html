@@ -1,0 +1,36 @@
+<div class="donutcontainer">
+<div class="donutbox">
+
+<h1>Shopping Cart</h1>
+  <table>
+        <tr>
+        <th>Donut</th>
+        <th>Calories</th>
+        <th>Price</th>
+        <th></th>
+</tr>
+@for (item of getCart(); track $index) {
+
+    <tr>
+        <td>
+        {{item.name}} 
+        </td>
+        <td>
+            {{item.calories}} 
+        </td>
+        <td>
+            <p>$1.00</p>
+        </td>
+        <td>
+            <button (click)="deleteItem(item)">Remove</button>
+        </td>
+        </tr>
+}
+
+    </table>
+
+
+<button (click)="resetCart()">Purchase Cart</button>
+</div>
+
+</div>

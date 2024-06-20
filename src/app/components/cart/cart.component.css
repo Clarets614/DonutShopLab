@@ -1,0 +1,27 @@
+
+.donutcontainer {
+    background-color: #F3F1F7;
+    padding: 1%;
+    max-width: 90%;
+    margin: auto;
+    padding: 2%;
+}
+
+.donutbox{
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px, solid, #ccc;
+    padding: 0%;
+    background-color: white;
+    padding-bottom: 10%;
+}
+p{
+    font-family: "Lilita One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 0;
+}
+
+li {
+    text-align: left;
+}

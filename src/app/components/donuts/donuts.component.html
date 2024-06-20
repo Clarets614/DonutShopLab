@@ -1,0 +1,10 @@
+<div class="donutcontainer">
+
+@for (d of allDonuts; track d.id) {
+    <div class="donutbox">
+
+    <p [routerLink]="['/', d.id]">{{d.name}}</p>
+</div>
+}
+
+</div>
